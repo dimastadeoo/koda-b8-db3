@@ -10,7 +10,13 @@ pada query ini merupakan memfilter pengambilan data dengan kondisi tertentu pada
 ### Screenshoot Query2
 ![alt text](image1.png)
 
-pada query ini menampilkan data antar tabel yang berelasi dengan menggunakan join. dimana untuk menyingkat penamaan tabel kita bisa aliaskan dengan menambahkan spasi setelah nama tabel lalu nama alias. lalu untuk penamaan coloumn tabel yang ambigu kita bisa aliaskan nama tabelnya setelah kita panggil pada select, seperti contoh :
+pada query ini menampilkan data antar tabel yang berelasi dengan menggunakan join. dimana untuk menyingkat penamaan tabel kita bisa aliaskan dengan menambahkan spasi setelah nama tabel lalu nama alias. contoh:
+```sql
+FROM "actors" "a"
+JOIN "roles" "r"
+```
+
+lalu untuk penamaan coloumn tabel yang ambigu kita bisa aliaskan nama tabelnya setelah kita panggil pada select, seperti contoh :
 ```sql
 "m"."name" AS
 ```
