@@ -24,3 +24,29 @@ lalu karna pada tabel nama director dan actor menggunakan first name dan lastnam
 ```sql
 concat_ws( ' ',"a"."first_name", "a"."last_name") AS "actors"
 ```
+
+### Screenshoot Query3
+
+<table>
+    <tr>
+        <td>Data Director dengan Jumlah Genre</td>
+        <td>Data Actor dengan Role > 5</td>
+        <td>Movies dengan genres dibuatkan 1 coloumn dipisah comma</td>
+    </tr>
+    <tr>
+        <td><img src="Screenshot_2026-07-14_17-52-00.png" alt="director"></td>
+        <td><img src="Screenshot_2026-07-14_17-52-15.png" alt="actor"></td>
+        <td><img src="Screenshot_2026-07-14_17-53-16.png" alt="actor"></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>Data director paling produktif</td>
+        <td>Tahun tersibuk dengan jumlah moviesnya</td>
+    </tr>
+    <tr>
+        <td><img src="Screenshot_2026-07-14_17-52-40.png" alt="director"></td>
+        <td><img src="Screenshot_2026-07-14_17-52-56.png" alt="actor"></td>
+    </tr>
+</table>
