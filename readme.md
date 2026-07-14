@@ -11,10 +11,10 @@ pada query ini merupakan memfilter pengambilan data dengan kondisi tertentu pada
 ![alt text](image1.png)
 
 pada query ini menampilkan data antar tabel yang berelasi dengan menggunakan join. dimana untuk menyingkat penamaan tabel kita bisa aliaskan dengan menambahkan spasi setelah nama tabel lalu nama alias. lalu untuk penamaan coloumn tabel yang ambigu kita bisa aliaskan nama tabelnya setelah kita panggil pada select, seperti contoh :
-```query
+```sql
 "m"."name" AS
 ```
 lalu karna pada tabel nama director dan actor menggunakan first name dan lastname, kita bisa gabungkan 2 coloumn tersebut kedalam satu coloumn dengan cara 
-```query
+```sql
 concat_ws( ' ',"a"."first_name", "a"."last_name") AS "actors"
 ```
